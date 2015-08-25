@@ -43,16 +43,16 @@ body.baby {
   background-repeat: no-repeat;
   background-position: center 0;
   background-color: #333;
-  background-image: url("../img/babygirl768.png"); }
+  background-image: url("../img/babygirl768.jpg"); }
   @media (min-width: 768px) {
     body.baby {
-      background-image: url("../img/babygirl992.png"); } }
+      background-image: url("../img/babygirl992.jpg"); } }
   @media (min-width: 992px) {
     body.baby {
-      background-image: url("../img/babygirl1200.png"); } }
+      background-image: url("../img/babygirl1200.jpg"); } }
   @media (min-width: 1200px) {
     body.baby {
-      background-image: url("../img/babygirl1920.png"); } }
+      background-image: url("../img/babygirl1920.jpg"); } }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark p, .dark span {
   color: #eee; }

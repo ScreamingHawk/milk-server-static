@@ -79,15 +79,15 @@ body.baby {
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-color: #333;
-	background-image: url($img_prefix + "babygirl" + $sm + ".png");
+	background-image: url($img_prefix + "babygirl" + $sm + ".jpg");
 	@include bp(sm){
-		background-image : url($img_prefix + "babygirl" + $md + ".png")
+		background-image : url($img_prefix + "babygirl" + $md + ".jpg")
 	}
 	@include bp(md){
-		background-image : url($img_prefix + "babygirl" + $lg + ".png")
+		background-image : url($img_prefix + "babygirl" + $lg + ".jpg")
 	}
 	@include bp(lg){
-		background-image : url($img_prefix + "babygirl" + $xl + ".png")
+		background-image : url($img_prefix + "babygirl" + $xl + ".jpg")
 	}
 }
 
