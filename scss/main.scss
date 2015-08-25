@@ -74,6 +74,23 @@ body.dark {
 		background-image : url($img_prefix + "background" + $xl + ".png")
 	}
 }
+body.baby {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-color: #333;
+	background-image: url($img_prefix + "babygirl" + $sm + ".png");
+	@include bp(sm){
+		background-image : url($img_prefix + "babygirl" + $md + ".png")
+	}
+	@include bp(md){
+		background-image : url($img_prefix + "babygirl" + $lg + ".png")
+	}
+	@include bp(lg){
+		background-image : url($img_prefix + "babygirl" + $xl + ".png")
+	}
+}
+
 
 $white: #eee;
 
