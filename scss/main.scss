@@ -108,8 +108,8 @@ $white: #eee;
 
 .btn-pink { 
   color: #ffffff; 
-  background-color: #BD1BBD; 
-  border-color: #69024E; 
+  background-color: #E45E9D; 
+  border-color: #130269; 
 } 
  
 .btn-pink:hover, 
@@ -118,8 +118,8 @@ $white: #eee;
 .btn-pink.active, 
 .open .dropdown-toggle.btn-pink { 
   color: #ffffff; 
-  background-color: #7A2455; 
-  border-color: #69024E; 
+  background-color: #69247A; 
+  border-color: #130269; 
 } 
  
 .btn-pink:active, 
@@ -143,11 +143,11 @@ fieldset[disabled] .btn-pink:active,
 .btn-pink.disabled.active, 
 .btn-pink[disabled].active, 
 fieldset[disabled] .btn-pink.active { 
-  background-color: #BD1BBD; 
-  border-color: #69024E; 
+  background-color: #E45E9D; 
+  border-color: #130269; 
 } 
  
 .btn-pink .badge { 
-  color: #BD1BBD; 
+  color: #E45E9D; 
   background-color: #ffffff; 
 }
