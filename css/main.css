@@ -57,4 +57,47 @@ body.baby {
 .dark h1, .dark h2, .dark h3, .dark h4, .dark p, .dark span, .dark label {
   color: #eee; }
 
+/* Additional Button Colours
+-------------------------------------------------- */
+.btn-pink {
+  color: #ffffff;
+  background-color: #BD1BBD;
+  border-color: #69024E; }
+
+.btn-pink:hover,
+.btn-pink:focus,
+.btn-pink:active,
+.btn-pink.active,
+.open .dropdown-toggle.btn-pink {
+  color: #ffffff;
+  background-color: #7A2455;
+  border-color: #69024E; }
+
+.btn-pink:active,
+.btn-pink.active,
+.open .dropdown-toggle.btn-pink {
+  background-image: none; }
+
+.btn-pink.disabled,
+.btn-pink[disabled],
+fieldset[disabled] .btn-pink,
+.btn-pink.disabled:hover,
+.btn-pink[disabled]:hover,
+fieldset[disabled] .btn-pink:hover,
+.btn-pink.disabled:focus,
+.btn-pink[disabled]:focus,
+fieldset[disabled] .btn-pink:focus,
+.btn-pink.disabled:active,
+.btn-pink[disabled]:active,
+fieldset[disabled] .btn-pink:active,
+.btn-pink.disabled.active,
+.btn-pink[disabled].active,
+fieldset[disabled] .btn-pink.active {
+  background-color: #BD1BBD;
+  border-color: #69024E; }
+
+.btn-pink .badge {
+  color: #BD1BBD;
+  background-color: #ffffff; }
+
 /*# sourceMappingURL=main.css.map */
