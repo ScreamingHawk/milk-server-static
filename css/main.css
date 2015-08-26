@@ -54,7 +54,7 @@ body.baby {
     body.baby {
       background-image: url("../img/babygirl1920.jpg"); } }
 
-.dark h1, .dark h2, .dark h3, .dark h4, .dark p, .dark span {
+.dark h1, .dark h2, .dark h3, .dark h4, .dark p, .dark span, .dark label {
   color: #eee; }
 
 /*# sourceMappingURL=main.css.map */
