@@ -54,8 +54,18 @@ body.baby {
     body.baby {
       background-image: url("../img/babygirl1920.jpg"); } }
 
-.dark h1, .dark h2, .dark h3, .dark h4, .dark p, .dark span, .dark label {
+.dark h1, .dark h2, .dark h3, .dark h4, .dark p, .dark span, .dark label, .dark li {
   color: #eee; }
+
+/* Helper Classes
+-------------------------------------------------- */
+.full {
+  width: 100%; }
+
+canvas.quarter {
+  width: 75%;
+  height: auto;
+  margin: 0 auto; }
 
 /* Additional Button Colours
 -------------------------------------------------- */
