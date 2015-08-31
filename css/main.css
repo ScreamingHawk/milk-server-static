@@ -62,7 +62,7 @@ body.baby {
 .btn-pink {
   color: #ffffff;
   background-color: #E45E9D;
-  border-color: #130269; }
+  border-color: #D04A89; }
 
 .btn-pink:hover,
 .btn-pink:focus,
@@ -70,8 +70,8 @@ body.baby {
 .btn-pink.active,
 .open .dropdown-toggle.btn-pink {
   color: #ffffff;
-  background-color: #69247A;
-  border-color: #130269; }
+  background-color: #BC3675;
+  border-color: #D04A89; }
 
 .btn-pink:active,
 .btn-pink.active,
@@ -94,7 +94,7 @@ fieldset[disabled] .btn-pink:active,
 .btn-pink[disabled].active,
 fieldset[disabled] .btn-pink.active {
   background-color: #E45E9D;
-  border-color: #130269; }
+  border-color: #D04A89; }
 
 .btn-pink .badge {
   color: #E45E9D;
