@@ -54,18 +54,12 @@ body.baby {
     body.baby {
       background-image: url("../img/babygirl1920.jpg"); } }
 
-.dark h1, .dark h2, .dark h3, .dark h4, .dark p, .dark span, .dark label, .dark li {
-  color: #eee; }
-
-/* Helper Classes
--------------------------------------------------- */
-.full {
-  width: 100%; }
-
-canvas.quarter {
-  width: 75%;
-  height: auto;
-  margin: 0 auto; }
+.dark {
+  /* Undoing some dark styles */ }
+  .dark h1, .dark h2, .dark h3, .dark h4, .dark p, .dark span, .dark label, .dark li {
+    color: #eee; }
+  .dark .thumbnail .caption h1, .dark .thumbnail .caption h2, .dark .thumbnail .caption h3, .dark .thumbnail .caption h4, .dark .thumbnail .caption p, .dark .thumbnail .caption span, .dark .thumbnail .caption label, .dark .thumbnail .caption li {
+    color: inherit; }
 
 /* Additional Button Colours
 -------------------------------------------------- */

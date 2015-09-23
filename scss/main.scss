@@ -49,7 +49,6 @@ body {
 
 /* Hellip
 -------------------------------------------------- */
-
 .animate-hellip {
 	position: absolute;
 }
@@ -57,6 +56,7 @@ body {
 
 /* Dark styles
 -------------------------------------------------- */
+
 
 body.dark {
 	background-attachment: fixed;
@@ -98,20 +98,14 @@ $white: #eee;
 	h1, h2, h3, h4, p, span, label, li{
 		color: $white;
 	}
+	/* Undoing some dark styles */
+	.thumbnail .caption{
+		h1, h2, h3, h4, p, span, label, li{
+			color: inherit;
+		}
+	}
 }
 
-
-/* Helper Classes
--------------------------------------------------- */
-
-.full {
-	width: 100%;
-}
-canvas.quarter {
-	width: 75%;
-	height: auto;
-	margin: 0 auto;
-}
 
 
 /* Additional Button Colours
