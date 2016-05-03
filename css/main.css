@@ -1,5 +1,24 @@
 /* Globals
 -------------------------------------------------- */
+/* Fonts
+-------------------------------------------------- */
+.font-josefin {
+  font-family: 'Josefin Sans', sans-serif; }
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif; }
+
+/* Block styles
+-------------------------------------------------- */
+.padded-block {
+  padding: 60px 0; }
+
+.block-colour-1 {
+  background: rgba(203, 146, 134, 0.1); }
+
+.block-colour-2 {
+  background: #a2bdbe; }
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html,
@@ -14,6 +33,34 @@ body {
 
 #footer {
   height: 60px; }
+
+/* Clear nav styles
+-------------------------------------------------- */
+nav.navbar-clear .navbar-brand {
+  color: #EEE; }
+nav.navbar-clear .nav > li > a {
+  color: #EEE;
+  text-transform: uppercase; }
+nav.navbar-clear .nav > li > a:focus,
+nav.navbar-clear .nav > li > a:hover {
+  background-color: transparent; }
+nav.navbar-clear .nav > li > .navbar-brand {
+  padding: 15px;
+  margin: 0;
+  text-transform: none; }
+nav.navbar-clear .navbar-nav {
+  display: inline-block;
+  float: none; }
+nav.navbar-clear .navbar-collapse {
+  text-align: center;
+  background: rgba(203, 146, 134, 0.8); }
+  @media (min-width: 768px) {
+    nav.navbar-clear .navbar-collapse {
+      background: none; } }
+nav.navbar-clear .icon-bar {
+  background-color: #EEE; }
+nav.navbar-clear .navbar-toggle {
+  float: left; }
 
 /* Hellip
 -------------------------------------------------- */
