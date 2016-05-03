@@ -1,11 +1,11 @@
 .carousel {
 	height: 800px;
-	max-height: 80vh;
+	max-height: 40vh;
 }
 
 .carousel .item {
 	height: 800px;
-	max-height: 80vh;
+	max-height: 40vh;
 	background: rgba(203, 146, 134, 0.1);
 }
 .carousel-inner > .item > img {
@@ -23,7 +23,7 @@
 .carousel-over-inner {
 	position: absolute;
 	width: 100%;
-	top: 60%;
+	top: 25%;
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%);
 	-moz-transform: translate(-50%,-50%);
@@ -34,8 +34,26 @@
 }
 
 .carousel-over h1 {
-	font-size: 400%;
+	font-size: 200%;
 }
 .carousel-over p {
-	font-size: 300%;
+	font-size: 150%;
+}
+
+@media (min-width: 768px) {
+	.carousel {
+		max-height: 80vh;
+	}
+	.carousel .item {
+		max-height: 80vh;
+	}
+	.carousel-over-inner {
+		top: 60%;
+	}
+	.carousel-over h1 {
+		font-size: 400%;
+	}
+	.carousel-over p {
+		font-size: 300%;
+	}
 }
