@@ -19,6 +19,12 @@
 .block-colour-2 {
   background: #a2bdbe; }
 
+.block-scaled {
+  display: block;
+  margin: 0 auto;
+  max-width: 98%;
+  max-height: 100vh; }
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html,
